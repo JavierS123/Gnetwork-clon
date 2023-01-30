@@ -8,6 +8,7 @@ header{
     background: transparent;
     box-shadow: none
 }
+
 .logo-container{
     width: 250rem;
     margin-left: 20rem;
@@ -21,4 +22,48 @@ header{
 }
 .navbar-menu-button{
     display: none;
+}
+.plan-title{
+    width: 50%;
+}
+.plan-title h2{
+    font-size: 40rem;
+}
+.plan-container-slider{
+    width: 90vw;
+    margin: 0 auto;
+    justify-content: center;
+    overflow-x: unset;
+    overscroll-behavior-x: unset;
+    scroll-snap-type: none;
+}
+.plan-card-container{
+    min-width: 18%;
+    border-radius: 24rem;
+    scroll-snap-align: unset;
+}
+.plan-info-container .plan-speed{
+    font-size: 32rem;
+    font-weight: bold;
+}
+.plan-info-container .plan-price{
+    font-size: 20rem;
+    font-weight: bold;
+}
+.advantages-section{
+    height: auto;
+}
+.advantages-container{
+    width: 100%;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+}
+.advantages-container .advantages-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 20vw;
+    height: 200rem;
 }
